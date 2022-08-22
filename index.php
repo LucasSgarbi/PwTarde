@@ -10,8 +10,21 @@
 </head>
 <body>
     <?php
-    echo "jão boco"; 
+    echo "jão boco \n"; 
+    echo '<br>';;
+    echo "<h1> Meu HTML </h1>";
+
+    $nome= "Lucas";
+    $idade = 20 ;
+    $altura = 1.77 ;
+    $encalhado = true;
+    
+    $p1=8;
+    $p2=7.5;
+    CONST Nomecompleto = "Lucas Sgarbi Aravéchia";
+    echo Nomecompleto 
+
     ?>
-    <h1>ABCgit</h1>
+
 </body>
 
