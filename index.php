@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estipo.css".css">
 </head>
 <body>
-    <h1>ABC</h1>
+    <?php
+    echo "jão boco"; 
+    ?>
+    <h1>ABCgit</h1>
 </body>
-</html>
+
