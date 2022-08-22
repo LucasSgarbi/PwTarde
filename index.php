@@ -10,8 +10,6 @@
 </head>
 <body>
     <?php
-    echo "jão boco \n"; 
-    echo '<br>';;
     echo "<h1> Meu HTML </h1>";
 
     $nome= "Lucas";
@@ -22,7 +20,27 @@
     $p1=8;
     $p2=7.5;
     CONST Nomecompleto = "Lucas Sgarbi Aravéchia";
-    echo Nomecompleto 
+    echo Nomecompleto;
+    echo "<br>";
+    $media = ($p1 + $p2)/2;
+    if($media >= 6)
+    {
+        echo "Aprovado";
+    }
+    else
+    {
+        echo "Reprovavel";
+    }
+    echo "<br>";
+// Concatenar é . 
+
+   for($i =1 ; $i< 5197 ; $i++)
+    {
+        if($i%2==0)
+        {
+            echo $i. "\n";
+        }
+    }
 
     ?>
 
