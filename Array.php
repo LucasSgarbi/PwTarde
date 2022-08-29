@@ -80,6 +80,20 @@ for($i=0 ;$i<10;$i++)
     print_r($num);
     echo "</pre>";
 
+$positivo = 0;
+$negativo = 0;
+for($i=0 ;$i<10;$i++)
+{
+    if($num[$i]> 0)
+    {
+        $positivo++;
+    }
+    else{
+        $negativo++;
+    }
+}
+echo "negativos:$negativo Positivo : $positivo <br>"
+
 ?>
 </body>
 </html>
