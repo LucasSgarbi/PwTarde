@@ -2,3 +2,7 @@ body{
     background: chartreuse;
     font-size: medium;
 }
+a{
+    font-style: normal;
+    font-size: larger;
+}

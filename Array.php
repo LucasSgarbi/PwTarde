@@ -7,8 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    /* 
+    <?php 
     $carros = array();
     $carros = ["BMW","Gol","Saveiro","Hilux"];
     echo "<ul>";
@@ -70,7 +69,6 @@
     echo "<pre>";
     print_r($cadastro);
     echo "</pre>";
-*/
 $num = array();
 for($i=0 ;$i<10;$i++)
 {
@@ -95,5 +93,6 @@ for($i=0 ;$i<10;$i++)
 echo "negativos:$negativo Positivo : $positivo <br>"
 
 ?>
+<a href="index.php">Voltar</a>
 </body>
 </html>
