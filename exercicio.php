@@ -60,7 +60,7 @@
 
             echo $por. " por cento de ". $nun ." = ". $por1; 
         }
-        porcento(20,100);
+        porcento(rand(0,100),rand(0,1000));
             $positivo = 0;
             $negativo = 0;
             $par = 0;
@@ -86,7 +86,7 @@
             }
             
         }
-        echo "<br> pares =".$par ." impares =".$inpar ." positivo =".$positivo . " negativo =".$negativo . "<br>" ;
+        echo "<br> pares =".$par ." impares =".$inpar ." positivo =".$positivo . " negativo =".$negativo . "<br>"  ;
 
         
         echo soma($ar)/8
