@@ -78,6 +78,6 @@
 
     LendariaCalculadora(9,8,"M");    
     ?>
-
+<a href="index.php">Voltar</a>
 </body>
 </html>
