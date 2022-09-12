@@ -89,13 +89,13 @@
         echo "<br> pares =".$par ." impares =".$inpar ." positivo =".$positivo . " negativo =".$negativo . "<br>"  ;
 
         
-        echo soma($ar)/8
+        echo soma($ar)/8 . "<br>"
 
 
 
 
     ?>
     
-
+    <a href="index.php">Voltar</a>
 </body>
 </html>

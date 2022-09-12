@@ -31,7 +31,12 @@
             aula("funcao.php","Aula de Funções");
 
             ?>  
-        </div> 
+
+    </div>
+    <div class="row">
+    <?php 
+     aula("exercicio.php","Exercício de fixação");
+    ?>
     </div>
     
 </body>
