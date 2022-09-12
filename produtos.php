@@ -1,3 +1,3 @@
 <?php include"./cabecalho.php" ; ?>
-            <h1>Ola</h1>
+            <h1>Lista de Produtos</h1>
 <?php include"./rodape.php" ; ?>

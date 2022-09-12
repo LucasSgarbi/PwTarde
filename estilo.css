@@ -1,8 +1,48 @@
-body{
-    background: chartreuse;
-    font-size: medium;
+body , li{
+    /* background-color: chartreuse; */
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+#container{
+    display: grid;
+    grid-template-rows:150px auto;
+    grid-template-areas:
+        "cabecalho"
+        "conteudo"
+}
+#cabecalho{
+    grid-area: cabecalho;
+    background-color: #1d1d1d;
+    color:#ffffff;
+    display: Flex;
+    justify-content: space-between;
+    align-items:center;
+}
+#conteudo {
+    grid-area: conteudo;
+    background-color: #ccc;  
+}
+img{
+    margin-top:15px;
+    margin-left:15px;
+}
+.menu{
+    display:Flex;
+}
+.menu li{
+    /* background-color: red; */
+    padding:20px;
+    margin-top:15px;
+    margin-left:15px;            
+}
+.menu li a{
+    display: block;
+    padding:10px;
+    cursor: pointer;
+    /* background-color: green; */
+    color: #ffffff ;
 }
 a{
-    font-style: normal;
-    font-size: larger;
+    text-decoration: none;
 }
