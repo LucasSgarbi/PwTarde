@@ -7,7 +7,7 @@
     <title>index aula </title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="Script" href="script.js" >
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
 
 <body class="container-fluid">
